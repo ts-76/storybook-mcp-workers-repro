@@ -1,0 +1,15 @@
+{
+  "name": "storybook-mcp-workers-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "patch": "node scripts/remove-banner.mjs"
+  },
+  "dependencies": {
+    "@storybook/mcp": "10.6.7"
+  },
+  "devDependencies": {
+    "wrangler": "4.155.0"
+  }
+}
